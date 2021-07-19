@@ -1,0 +1,2 @@
+rootProject.name = "MAD_07_Text2Speech"
+include ':app'

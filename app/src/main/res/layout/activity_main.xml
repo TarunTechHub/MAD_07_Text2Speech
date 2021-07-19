@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Text To Speech"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="25sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pitch"
+        android:hint="Enter pitch (1.0 is normal)"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speechrate"
+        android:hint="Enter Speech Rate(1.0 is normal)"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/texttospeech"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:hint="Enter text to speek"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/speek"
+        android:text="TEXT TO SPEECH"
+        android:textAlignment="center"
+        android:onClick="speak"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="NAME_USN"
+        android:textSize="20sp"
+        android:textColor="@color/purple_500"
+        />
+
+</LinearLayout>
